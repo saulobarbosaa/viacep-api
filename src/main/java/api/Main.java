@@ -15,7 +15,8 @@ import com.google.gson.GsonBuilder;
 public class Main {
 	public static void main(String[] args) throws IOException, InterruptedException {
 
-		String cep = "72306808";
+		String cep = "72327015";
+
 		try {
 			HttpClient client = HttpClient.newHttpClient();
 			HttpRequest request = HttpRequest.newBuilder()
